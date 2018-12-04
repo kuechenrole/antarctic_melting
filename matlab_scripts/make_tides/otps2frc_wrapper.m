@@ -1,4 +1,4 @@
-run = 'waom10'
+run = 'sd'
 addpath ./TMD
 addpath ./TMD/FUNCTIONS
 addpath ./t_tide_v1.3beta

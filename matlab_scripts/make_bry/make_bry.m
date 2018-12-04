@@ -6,7 +6,7 @@
 % 2015-Dec-01:   Updated to remove a bunch of redundant features
 % 2017-Jun-21:   adapted to work on 360° whole antarctic domain
 
-run = 'waom10';
+run = 'sd';
 %addpath(genpath('/ds/projects/iomp/matlab_scripts'))
 proj_dir = fullfile('..','..');
 data_dir = fullfile(proj_dir,'data','preprocessing');
@@ -25,7 +25,7 @@ Vtransform = 2;
 Vstretching = 4;
 theta_s = 7;
 theta_b = 8;
-Tcline = 250;
+Tcline = 20;
 N = 31;
 
 %%%%%%%%%%%%%%%%%%%
