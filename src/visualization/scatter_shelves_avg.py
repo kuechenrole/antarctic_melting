@@ -67,7 +67,7 @@ def plot_regres(ax,x_all,y_all,tit,ypos,color,poly_print=False):
         
     return p
 
-def scatter_shelves_avg(x_name,y_name,title,xlab,ylab,shelves_dict=shelves2,sector_dict=sector2,big=False,save=False):
+def scatter_shelves_avg(x_name,y_name,title,xlab,ylab,shelves_dict,sector_dict,big=False,save=False):
     
     matplotlib.rcParams.update({'font.size': 18})
     
