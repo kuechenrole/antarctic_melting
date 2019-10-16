@@ -145,8 +145,7 @@ def calc_frc(Tm,Sm,zice,ustar,f,m,mask):
     Tb = (gammaT*Tm+mflag*(cp_i/cp_w)*m*Ti-(L/cp_w)*m)/(gammaT + mflag*(cp_i/cp_w)*m)
     Sb = (Tb - b - c*zice)/a
     
+    Tdr = xr.DataArray(Tm - TFb,dims=('eta_rho','xi_rho'),name='Tdr').where(mask)
     Tfr = xr.DataArray(Tm-Tb,dims=('eta_rho','xi_rho'),name='Tfr').where(mask)
-    Sfr = xr.DataArray(-a*(Sm - Sb),dims=('eta_rho','xi_rho'),name='Sfr').where(mask)
-    Tdr = xr.DataArray(Tfr + Sfr,dims=('eta_rho','xi_rho'),name='Tdr').where(mask)
     
-    return Tfr,Sfr,Tdr
+    return Tdr,Tfr
