@@ -20,4 +20,6 @@ def calc_antarctic_mass_loss(m,grd):
     print('Area of all ice shelves in 10^3 km^2: ',dA.sum().values*10**-9)
     print('Area average melt rate in m/yr: ',ismr.values)
     print('Basal mass loss in Gt/a: ',bmb.values)
+
+    return dA.sum().values*10**-9,ismr.values,bmb.values
     
