@@ -1,0 +1,10 @@
+,uv_mean_nt,uv_mean_t,u_tide,uv_mean_diff,u_tide_diff,uv_mean_diff_rel,u_tide_diff_rel
+Total Antarctica, 0.02, 0.02, 0.07, 0.00, 0.05,21.50,282.56
+Western East Antarctica, 0.03, 0.03, 0.05, 0.00, 0.02, 3.03,96.43
+Amery/Prydz Bay, 0.03, 0.03, 0.05, 0.00, 0.02, 6.15,79.73
+Sabrina Coast/Aurora subglacial basin, 0.03, 0.03, 0.04, 0.00, 0.01, 5.56,50.82
+George V Coast/Wilkes subglacial basin, 0.02, 0.02, 0.05, 0.00, 0.03,20.71,157.78
+Ross Sea, 0.02, 0.02, 0.07, 0.00, 0.05, 6.43,308.08
+Amundsen Sea, 0.02, 0.02, 0.03,-0.00, 0.01,-3.21,71.81
+Bellingshausen Sea, 0.01, 0.02, 0.03, 0.00, 0.01, 0.49,94.42
+Weddell Sea, 0.01, 0.02, 0.11, 0.01, 0.09,75.22,718.70
