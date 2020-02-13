@@ -1,10 +1,10 @@
-,m_nt,m_t,m_diff,m_diff_rel,bmb_nt,bmb_t,bmb_diff,bmb_diff_rel,A
-Total Antarctica, 0.90, 0.93, 0.04, 4.08,1387.86,1444.51,56.66, 4.08,1690.84
-Western East Antarctica, 1.31, 1.31, 0.01, 0.43,195.42,196.26, 0.83, 0.43,163.10
-Amery/Prydz Bay, 0.33, 0.36, 0.02, 7.35,21.05,22.59, 1.55, 7.35,68.78
-Sabrina Coast/Aurora subglacial basin, 1.78, 1.81, 0.03, 1.77,130.73,133.04, 2.31, 1.77,80.29
-George V Coast/Wilkes subglacial basin, 1.76, 1.90, 0.14, 7.86,54.89,59.21, 4.32, 7.86,34.08
-Ross Sea, 0.46, 0.47, 0.01, 1.65,229.48,233.27, 3.79, 1.65,539.88
-Amundsen Sea, 2.69, 2.72, 0.04, 1.34,248.89,252.21, 3.32, 1.34,101.09
-Bellingshausen Sea, 4.42, 4.26,-0.17,-3.78,327.45,315.06,-12.39,-3.78,80.81
-Weddell Sea, 0.32, 0.41, 0.09,29.41,179.94,232.87,52.93,29.41,622.82
+,A,m_t,bmb_t,m_diff,bmb_diff,m_diff_rel,bmb_diff_rel
+Total Antarctica,1690.89, 0.93,1444.51, 0.04,56.66, 4.08, 4.08
+Western East Antarctica,163.10, 1.31,196.26, 0.01, 0.83, 0.43, 0.43
+Amery/Prydz Bay,68.78, 0.36,22.59, 0.02, 1.55, 7.35, 7.35
+Sabrina Coast/Aurora subglacial basin,80.29, 1.81,133.04, 0.03, 2.31, 1.77, 1.77
+George V Coast/Wilkes subglacial basin,34.08, 1.90,59.21, 0.14, 4.32, 7.86, 7.86
+Ross Sea,539.88, 0.47,233.27, 0.01, 3.79, 1.65, 1.65
+Amundsen Sea,101.09, 2.72,252.21, 0.04, 3.32, 1.34, 1.34
+Bellingshausen Sea,80.81, 4.26,315.06,-0.17,-12.39,-3.78,-3.78
+Weddell Sea,622.82, 0.41,232.87, 0.09,52.93,29.41,29.41
