@@ -2,7 +2,7 @@ import numpy as np
 import xarray as xr
 import scipy.io as sio
 from scipy.spatial import KDTree
-from .log_progress import log_progress
+#from .log_progress import log_progress
 
 def make_mask_sector(grd):
     mask_sector = {}
