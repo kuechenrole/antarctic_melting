@@ -4,8 +4,8 @@ import ttide as tt
 import datetime
 import numpy as np
 import scipy.io as sio
-from .log_progress import log_progress
-from .haversine import haversine
+from log_progress import log_progress
+from cartesian_grid_2d import haversine
 
 def read_atg(atg_data,site_id,constit_list):
 

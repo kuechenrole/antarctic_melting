@@ -1,7 +1,7 @@
 import xarray as xr
 
-from .grid_ttide import grid_ttide,plot_amp,plot_phase
-from .compare_atg import compare_atg,print_rmse
+from grid_ttide import grid_ttide,plot_amp,plot_phase
+from compare_atg import compare_atg,print_rmse
 
 def compare_constit(case_amp,case_phase,case_str,ref_amp,ref_phase,ref_str,atg_rmse,wct,comp,constit):
     print_rmse(atg_rmse,[case_amp.name[:2]])

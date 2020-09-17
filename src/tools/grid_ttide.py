@@ -3,7 +3,7 @@ import datetime
 from scipy.interpolate import NearestNDInterpolator
 import xarray as xr
 import numpy as np
-from .log_progress import log_progress
+from log_progress import log_progress
 import matplotlib.pyplot as plt
 
 def NDinterp(data):

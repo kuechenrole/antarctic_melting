@@ -1,5 +1,5 @@
 # equip roms grid with depths and volumes
-from tools.cartesian_grid_3d import cartesian_grid_3d
+from tools2.cartesian_grid_3d import cartesian_grid_3d
 import numpy as np
 import xarray as xr
 
