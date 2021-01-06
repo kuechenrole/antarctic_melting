@@ -4,7 +4,7 @@ import xarray as xr
 import pandas as pd
 import scipy.io as sio
 import numpy as np
-import tools2.mds as mds
+import mds as mds
 
 
 def make_TS_ds(sose_dir,records=None):

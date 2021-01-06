@@ -1,6 +1,6 @@
 from numpy import *
-from .cartesian_grid_2d import *
-from .calc_z import *
+from cartesian_grid_2d import *
+from calc_z import *
 
 # Given ROMS grid variables, calculate Cartesian integrands (dx, dy, dz) as
 # well as z-coordinates.
