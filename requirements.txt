@@ -63,7 +63,7 @@ jupyter-nbextensions-configurator==0.4.1
 kiwisolver==1.0.1
 llvmlite==0.29.0
 locket==0.2.0
-lxml==4.2.4
+lxml==4.6.2
 MarkupSafe==1.0
 matplotlib==2.2.2
 matplotlib-scalebar==0.6.1
