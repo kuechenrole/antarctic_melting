@@ -1,9 +1,9 @@
 #read in raw data as xr.dataset
 import xarray as xr
 import numpy as np
-from .calc_z import calc_z
-from .cartesian_grid_3d import cartesian_grid_3d
-from .rotate_vector_roms import rotate_vector_roms
+from calc_z import calc_z
+from cartesian_grid_3d import cartesian_grid_3d
+from rotate_vector_roms import rotate_vector_roms
 import gsw
 
 def make_4D_mask(ds):
