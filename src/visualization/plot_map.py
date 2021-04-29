@@ -7,6 +7,7 @@ import numpy as np
 import cmocean.cm as ocm
 from scipy import stats
 import pandas as pd
+from log_progress import log_progress
 
 def get_vrange(da,vrange):
     if vrange==None:
